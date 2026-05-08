@@ -1,4 +1,4 @@
-books_v02/
+books/
 │
 ├── models/
 │   ├── mod001_kernel.php

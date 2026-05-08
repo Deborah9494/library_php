@@ -1,4 +1,4 @@
-# Books v02
+# Books
 
 Simple PHP + MySQL application to browse books and authors.
 
@@ -15,11 +15,29 @@ Simple PHP + MySQL application to browse books and authors.
 ## Structure
 
 ```text
-books_v02/
+books/
 │
 ├── models/
+│   ├── mod001_kernel.php
+│   ├── mod002_accesoadatos_execute_query.php
+│   ├── mod004_generate_error.php
+│   │
+│   ├── authors/
+│   │   ├── mod002_accesoadatos.php
+│   │   ├── mod003_logica.php
+│   │   └── mod004_presentacion.php
+│   │
+│   ├── books/
+│       ├── mod002_accesoadatos.php
+│       ├── mod003_logica.php
+│       └── mod004_presentacion.php
+│
 ├── views/
-├── assets/
+│   ├── header.php
+│   ├── view_index.php
+│   ├── view_authors.php
+│   ├── view_books.php
+│
 ├── authors.php
 ├── books.php
 └── index.php
